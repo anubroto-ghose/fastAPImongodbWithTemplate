@@ -3,7 +3,7 @@ trigger:
 
 variables:
   azureServiceConnectionId: 'c15f0ae3-6a43-42ce-8854-e7db1f0d2c24'
-  webAppName: 'anuwebapp'
+  webAppName: 'ecommerceanu'
   pythonVersion: '3.11'
 
 stages:
@@ -48,7 +48,7 @@ stages:
     pool:
       name: TestAgent   # ✅ Self-hosted pool again
 
-    environment: anuwebapp
+    environment: ecommerceanu
 
     strategy:
       runOnce:
