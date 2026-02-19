@@ -2,7 +2,7 @@ trigger:
 - main
 
 variables:
-  azureServiceConnectionId: 'c15f0ae3-6a43-42ce-8854-e7db1f0d2c24'
+  azureServiceConnectionId: 'b9c79413-5997-460f-8b4e-fb981c825850'
   webAppName: 'ecommerceanu'
   pythonVersion: '3.11'
 
